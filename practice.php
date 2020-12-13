@@ -148,3 +148,48 @@ echo "\n";
         echo "要素は".$animal;
         echo "\n";
     }
+    $name = "上野　圭介";
+    if ($name){
+    echo "私は　あなたの名前です";
+    echo "\n";
+    }
+    else{
+    echo "あなたの名前ではありません";
+    echo "\n";
+    }
+    $total = 0;
+    echo $total;
+    echo "\n";
+    for($i=1; $i<=10000 ;$i++){
+        $total +=$i;
+    }
+        echo $total;
+    echo "\n";
+    
+    $fruits = array("みかん","りんご","なし","きうい","バナナ");
+    foreach($fruits as $fruits){
+        echo "要素は" . $fruits;
+        echo "\n";
+    }
+    $members = array("蒲池","長沼","山崎","高尾","高橋");
+    foreach($members as $member){
+        echo "担当は、" . $member . "\n";
+    }
+    $start = 0;
+    echo $start;
+    for($i=1; $i<=100; $i++){
+        if($i % 5 == 0){
+            echo $i ."\n";
+        }
+    }
+    $fruits = array("orange","apple","juice","milk","green","coffee","tea");
+    echo count($fruits) ."\n";
+    for($i = 0; $i < count($fruits); $i++){
+    echo ":" . $fruits[$i] . "\n";
+    }
+    $aaa = 1;
+    for($i = $aaa; $i <= 100; $i++){
+        if($i % 5 == 0){
+        echo $i ."\n";    
+        }
+    }
